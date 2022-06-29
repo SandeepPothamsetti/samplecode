@@ -12,7 +12,6 @@ describe('Creating a sample Survey',async function(){
     await browser.url('/')
     await browser.maximizeWindow();
     await LoginPage.loginuser(LoginData.userName,LoginData.password)
-
 })
 
 it('Selection of Type of Survey',async function(){
